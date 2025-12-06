@@ -1,7 +1,6 @@
 {
   "version": 1,
   "updated_at": "2025-12-06T00:00:00Z",
-
   "categories": [
     {
       "id": "00000000-0000-0000-0000-000000000001",
@@ -28,7 +27,6 @@
       "isCustom": false
     }
   ],
-
   "places": [
     {
       "id": "99999999-9999-9999-9999-999999999999",
@@ -37,35 +35,18 @@
       "address": "Testville",
       "latitude": 40.70000,
       "longitude": -73.90000,
-      "categoryID": "00000000-0000-0000-0000-000000000003",
+      "categoryID": "00000000-0000-0000-0000-000000000004",
       "isCustom": false
     },
-
     {
       "id": "10000000-0000-0000-0000-000000000001",
-      "name": "Red Gate Bakery",
-      "note": "Choco-Toffee Cookie",
+      "name": "Red Gate Bakery (JSON)",
+      "note": "Choco-Toffee Cookie from JSON only",
       "address": "68 E 4th St, New York, NY",
       "latitude": 40.72461,
       "longitude": -73.99056,
       "categoryID": "00000000-0000-0000-0000-000000000001",
       "isCustom": false
-    },
-
-    {
-      "id": "10000000-0000-0000-0000-000000000002",
-      "name": "The Pastry Box",
-      "note": "Sea Salt Chocolate Chip",
-      "address": "East Village, New York, NY",
-      "latitude": 40.72930,
-      "longitude": -73.98000,
-      "categoryID": "00000000-0000-0000-0000-000000000001",
-      "isCustom": false
     }
-
-    /*  
-      👉  Add the rest of your existing places here exactly as before.
-      I can regenerate the full payload for you if you want the entire file cleanly assembled.
-    */
   ]
 }
