@@ -1,0 +1,16 @@
+private func loadRemoteFoodData() {
+    Task {
+        do {
+            let payload = try await RemoteFoodDataService.shared.loadData()
+
+            // Use categories from remote, but you could also merge with built-ins if you want.
+            self.categories = payload.categories
+            self.places = payload.places
+
+            // Re-sync visited with new places
+            self.cleanupVisited()
+        } catch {
+            print("Failed to load remote food data: \(error)")
+        }
+    }
+}
